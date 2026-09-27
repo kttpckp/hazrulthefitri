@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hazrul Fitri | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="messenger-window">
+
+        <!-- =========================================
+             TITLE BAR
+        ========================================== -->
+
+        <header class="title-bar">
+
+            <div class="title-left">
+                <div class="messenger-icon">👥</div>
+
+                <span>
+                    Hazrul Fitri - Portfolio
+                </span>
+            </div>
+
+            <div class="window-controls">
+
+                <button class="window-button">
+                    —
+                </button>
+
+                <button class="window-button">
+                    □
+                </button>
+
+                <button class="window-button close">
+                    ×
+                </button>
+
+            </div>
+
+        </header>
+
+
+        <!-- =========================================
+             MENU BAR
+        ========================================== -->
+
+        <nav class="menu-bar">
+
+            <a href="#">File</a>
+            <a href="#">Edit</a>
+            <a href="#">View</a>
+            <a href="#">Actions</a>
+            <a href="#">Tools</a>
+            <a href="#">Help</a>
+
+        </nav>
+
+
+        <!-- =========================================
+             TOOLBAR
+        ========================================== -->
+
+        <nav class="toolbar">
+
+            <a href="#home" class="toolbar-item">
+
+                <span class="toolbar-icon">
+                    🏠
+                </span>
+
+                <span>Home</span>
+
+            </a>
+
+
+            <a href="#about" class="toolbar-item">
+
+                <span class="toolbar-icon">
+                    👤
+                </span>
+
+                <span>About</span>
+
+            </a>
+
+
+            <button
+                class="toolbar-item toolbar-button"
+                id="toolbarProjects">
+
+                <span class="toolbar-icon">
+                    📁
+                </span>
+
+                <span>Projects</span>
+
+            </button>
+
+
+            <a href="#contact" class="toolbar-item">
+
+                <span class="toolbar-icon">
+                    💬
+                </span>
+
+                <span>Contact</span>
+
+            </a>
+
+        </nav>
+
+
+        <!-- =========================================
+             MAIN PROFILE / HERO
+        ========================================== -->
+
+        <section class="hero" id="home">
+
+            <div class="profile-frame">
+
+                <!-- Replace this with your own photo later -->
+
+                <div class="profile-placeholder">
+                    👤
+                </div>
+
+                <!-- Online indicator -->
+                <span class="online-status"></span>
+
+            </div>
+
+
+            <h1>
+                Hazrul Fitri
+            </h1>
+
+
+            <p class="role">
+                Cloud Support / DevOps / Full-Stack Learner
+            </p>
+
+
+            <!-- Main Navigation Buttons -->
+
+            <div class="main-buttons">
+
+                <button
+                    class="msn-button"
+                    data-target="about">
+
+                    <span>👤</span>
+
+                    ABOUT
+
+                </button>
+
+
+                <button
+                    class="msn-button"
+                    data-target="contact">
+
+                    <span>✉️</span>
+
+                    CONTACT
+
+                </button>
+
+
+                <button
+                    class="msn-button"
+                    id="projectsButton">
+
+                    <span>📁</span>
+
+                    PROJECTS
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             INFORMATION PANELS
+        ========================================== -->
+
+        <section class="info-grid">
+
+
+            <!-- ABOUT PANEL -->
+
+            <article
+                class="messenger-panel"
+                id="about">
+
+                <div class="panel-title">
+
+                    <div>
+                        👤
+                        <strong>About Me</strong>
+                    </div>
+
+                    <button class="minimize-button">
+                        −
+                    </button>
+
+                </div>
+
+
+                <div class="panel-content">
+
+                    <div class="speech-box">
+
+                        <h2>
+                            Hi! I'm Hazrul Fitri.
+                        </h2>
+
+                        <p>
+                            I'm a technology enthusiast exploring
+                            cloud computing, DevOps and full-stack
+                            development.
+                        </p>
+
+                        <p>
+                            I enjoy solving problems, learning how
+                            systems work and building practical
+                            projects that improve my skills.
+                        </p>
+
+                        <span class="smiley">
+                            🙂
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- CONTACT PANEL -->
+
+            <article
+                class="messenger-panel"
+                id="contact">
+
+                <div class="panel-title">
+
+                    <div>
+                        ✉️
+                        <strong>Get In Touch</strong>
+                    </div>
+
+                    <button class="minimize-button">
+                        −
+                    </button>
+
+                </div>
+
+
+                <div class="panel-content">
+
+                    <div class="speech-box">
+
+                        <h2>
+                            Let's connect!
+                        </h2>
+
+                        <p>
+                            I'm open to opportunities,
+                            collaborations or just a friendly
+                            conversation about technology.
+                        </p>
+
+
+                        <div class="contact-links">
+
+                            <a href="mailto:your@email.com">
+                                ✉️ Email
+                            </a>
+
+                            <a
+                                href="https://linkedin.com"
+                                target="_blank">
+
+                                in LinkedIn
+
+                            </a>
+
+                            <a
+                                href="https://github.com"
+                                target="_blank">
+
+                                🐙 GitHub
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+        </section>
+
+
+        <!-- =========================================
+             STATUS BAR
+        ========================================== -->
+
+        <footer class="status-bar">
+
+            <div>
+                <span class="status-dot"></span>
+                Hazrul is online
+            </div>
+
+            <span>
+                Welcome to my portfolio :)
+            </span>
+
+        </footer>
+
+
+    </main>
+
+
+    <!-- Projects message -->
+
+    <div
+        class="popup"
+        id="projectsPopup">
+
+        <strong>Projects</strong>
+
+        <p>
+            Projects page coming soon!
+        </p>
+
+        <button id="closePopup">
+            OK
+        </button>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
